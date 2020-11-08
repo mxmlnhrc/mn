@@ -875,9 +875,11 @@ body #kontakt form .submit:hover {
 }
 
 body #kontakt .contact-form {
-  position: relative;
-  top: 20vh;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  top: 20vh;
+  left: 3%;
 }
 /*# sourceMappingURL=main.css.map */
