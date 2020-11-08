@@ -1,0 +1,761 @@
+* {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #edf7f6;
+  color: #071c47;
+}
+
+body nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 8vh;
+  background-color: #edf7f6;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+body nav .logo {
+  height: auto;
+  width: 12vh;
+  background-color: #edf7f6;
+}
+
+body nav .logo img {
+  background-color: #edf7f6;
+}
+
+body nav .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 45%;
+  background-color: #edf7f6;
+}
+
+body nav .nav-links li {
+  list-style: none;
+}
+
+body nav .nav-links a {
+  color: #272727;
+  text-decoration: none;
+  font-weight: 550;
+  font-size: 18px;
+  background-color: #edf7f6;
+}
+
+body #home {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: #071c47;
+}
+
+body #home .bg {
+  position: absolute;
+  opacity: 0.3;
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+}
+
+body #home .bg img {
+  width: 100%;
+  height: auto;
+}
+
+body #home .vid {
+  position: relative;
+  top: 30%;
+  left: 5%;
+  float: left;
+  background-color: #edf7f6;
+}
+
+body #home .content {
+  background-color: transparent;
+  position: relative;
+  top: 45%;
+  right: 5%;
+  float: right;
+  width: 40%;
+}
+
+body #home .content a {
+  position: relative;
+  top: 30px;
+  background-color: #edf7f6;
+  color: #071c47;
+  padding: 0.8em 1em;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+body #home .content h4 {
+  background-color: transparent;
+  color: #edf7f6;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+body #ueber {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 100vh;
+  background-color: #edf7f6;
+}
+
+body #ueber img {
+  float: right;
+  width: 20%;
+  position: relative;
+  top: 25vh;
+  right: 5%;
+}
+
+body #ueber h1 {
+  position: relative;
+  top: 15vh;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  background-color: transparent;
+}
+
+body #ueber .text {
+  position: relative;
+  top: 25vh;
+  left: 3%;
+  width: 60%;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+body #ueber .follow {
+  position: absolute;
+  top: 70vh;
+  left: 3%;
+  width: 30%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #ueber .follow h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+body #ueber .follow hr {
+  border: 1px solid;
+}
+
+body #ueber .follow .icons {
+  position: relative;
+  top: 2vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #ueber .follow .icons img {
+  float: left;
+  position: relative;
+  top: 0;
+  display: inline;
+  width: 50px;
+  padding: 10px;
+}
+
+body #ueber .follow .icons #fb {
+  width: 40px;
+}
+
+body #angebot {
+  position: absolute;
+  top: 200vh;
+  background-color: #edf7f6;
+  height: 100vh;
+  width: 100%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+body #angebot h2 {
+  position: relative;
+  top: 20vh;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  background-color: transparent;
+}
+
+body #angebot .wraper {
+  position: relative;
+  top: 30vh;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+}
+
+body #angebot .wraper img {
+  position: relative;
+  top: 0;
+  display: inline;
+  height: 80px;
+  margin: auto;
+}
+
+body #angebot .wraper h5 {
+  position: relative;
+  top: 10px;
+  font-size: 20px;
+}
+
+body #angebot .wraper p {
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  top: 20px;
+}
+
+body #angebot .wraper .pension {
+  position: absolute;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  padding: 10px;
+}
+
+body #angebot .wraper .versorgungssysteme {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 25%;
+  height: 100%;
+  padding: 10px;
+}
+
+body #angebot .wraper .mitarbeiterbindung {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 25%;
+  height: 100%;
+  padding: 10px;
+}
+
+body #angebot .wraper .digital {
+  position: absolute;
+  top: 0;
+  left: 75%;
+  width: 25%;
+  height: 100%;
+  padding: 10px;
+}
+
+body #angebot .btn {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 25vh;
+}
+
+body #angebot .btn a {
+  background-color: #071c47;
+  color: #edf7f6;
+  padding: 0.8em 1em;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+body #ablauf {
+  position: absolute;
+  top: 300vh;
+  width: 100%;
+  height: 100vh;
+  background-color: #edf7f6;
+  text-align: center;
+}
+
+body #ablauf h2 {
+  position: relative;
+  top: 15vh;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  background-color: transparent;
+}
+
+body #ablauf .wraper {
+  position: relative;
+  top: 23vh;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+}
+
+body #ablauf .wraper img {
+  position: relative;
+  top: 0;
+  display: inline;
+  height: 150px;
+  width: auto;
+  margin: auto;
+}
+
+body #ablauf .wraper p {
+  font-weight: 600;
+  font-size: 18px;
+  position: relative;
+  top: 25px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body #ablauf .wraper .one {
+  width: 33%;
+  position: absolute;
+  padding: 25px;
+}
+
+body #ablauf .wraper .two {
+  width: 33%;
+  position: absolute;
+  left: 33%;
+  padding: 25px;
+}
+
+body #ablauf .wraper .three {
+  width: 33%;
+  position: absolute;
+  left: 66%;
+  padding: 25px;
+}
+
+body #ablauf .btn {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 30vh;
+}
+
+body #ablauf .btn a {
+  background-color: #071c47;
+  color: #edf7f6;
+  padding: 0.8em 1em;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+body #termin {
+  width: 100%;
+  height: 100vh;
+  background-color: #071c47;
+  position: absolute;
+  top: 400vh;
+  color: #edf7f6;
+}
+
+body #termin h2 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+body #termin .right {
+  position: absolute;
+  top: 15vh;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+
+body #termin .right h2 {
+  position: relative;
+  top: -1vh;
+}
+
+body #termin .right iframe {
+  position: absolute;
+  top: 8vh;
+  left: 10%;
+  width: 80%;
+  height: 75%;
+  border: 0px;
+  background-color: #071c47;
+}
+
+body #termin .left {
+  position: absolute;
+  top: 14vh;
+  width: 50%;
+}
+
+body #termin .left p {
+  position: relative;
+  top: 5vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+body #faq {
+  width: 100%;
+  height: 200vh;
+  background-color: #071c47;
+  position: absolute;
+  top: 500vh;
+  color: #edf7f6;
+}
+
+body #faq h2 {
+  text-align: center;
+}
+
+body #faq .headline {
+  position: relative;
+  top: 15vh;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+body #faq .wrapper {
+  position: relative;
+  top: 0;
+  margin-top: 100px;
+  padding-top: 150px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+body #faq .card {
+  top: 20vh;
+  position: -webkit-sticky;
+  position: sticky;
+  -webkit-box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-color: #272727;
+  border: 1px solid;
+  color: #071c47;
+  padding: 40px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  background-color: #edf7f6;
+}
+
+body #faq .card h2 {
+  padding: 0;
+  text-align: center;
+}
+
+body #faq .card span {
+  display: block;
+  font-size: 15px;
+  color: #0c2e75;
+}
+
+body #faq .card:nth-child(1n) {
+  top: 140px;
+}
+
+body #faq .card:nth-child(2n) {
+  top: 160px;
+}
+
+body #faq .card:nth-child(3n) {
+  top: 180px;
+}
+
+body #faq .card:nth-child(4n) {
+  top: 200px;
+}
+
+body #versprechen {
+  width: 100%;
+  height: 100vh;
+  background-color: #edf7f6;
+  position: absolute;
+  top: 700vh;
+}
+
+body #versprechen .img {
+  width: 30%;
+  position: absolute;
+  top: 25vh;
+  left: 5%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+body #versprechen .img img {
+  width: 90%;
+}
+
+body #versprechen .img p {
+  position: relative;
+  top: 30px;
+}
+
+body #versprechen .text {
+  position: absolute;
+  right: 5%;
+  top: 35vh;
+  width: 50%;
+  float: right;
+}
+
+body #versprechen .text h2 {
+  font-size: 35px;
+}
+
+body #versprechen .text p {
+  font-weight: 500;
+  position: relative;
+  top: 20px;
+  line-height: 25px;
+}
+
+body #versprechen .text h3 {
+  font-family: Mariposa Script Demo;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 40px;
+}
+
+body #kundenstimmen {
+  width: 100%;
+  height: 100vh;
+  background-color: #edf7f6;
+  position: absolute;
+  top: 800vh;
+}
+
+body #kundenstimmen h2 {
+  position: relative;
+  top: 15vh;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+body #kundenstimmen .card {
+  background-color: #071c47;
+  color: #edf7f6;
+  position: relative;
+  top: 22vh;
+  width: 70%;
+  height: 53vh;
+  margin-left: auto;
+  margin-right: auto;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  -webkit-box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+
+body #kundenstimmen .card img {
+  position: relative;
+  top: 8vh;
+}
+
+body #kundenstimmen .card h3 {
+  font-size: 35px;
+  font-weight: 600;
+  position: relative;
+  top: 20px;
+}
+
+body #kundenstimmen .card p {
+  padding: 0 0.8em;
+  position: relative;
+  top: 45px;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+body #kundenprobleme {
+  width: 100%;
+  height: 130vh;
+  background-color: #edf7f6;
+  position: absolute;
+  top: 900vh;
+}
+
+body #kundenprobleme h2 {
+  position: relative;
+  top: 15vh;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+body #kundenprobleme .matthias {
+  position: absolute;
+  top: 30vh;
+  vertical-align: middle;
+}
+
+body #kundenprobleme .matthias .img {
+  width: 20%;
+  text-align: center;
+  position: absolute;
+  left: 5%;
+}
+
+body #kundenprobleme .matthias .img img {
+  width: 70%;
+}
+
+body #kundenprobleme .matthias .img h3 {
+  position: relative;
+  top: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+body #kundenprobleme .matthias .img p {
+  position: relative;
+  top: 10px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+body #kundenprobleme .matthias .text {
+  float: right;
+  width: 60%;
+  position: relative;
+  right: 5%;
+  line-height: 25px;
+}
+
+body #kundenprobleme .matthias .text .problem {
+  position: absolute;
+  top: 3vh;
+}
+
+body #kundenprobleme .matthias .text .problem p {
+  position: relative;
+  top: 3vh;
+}
+
+body #kundenprobleme .matthias .text .losung {
+  position: relative;
+  top: 22vh;
+}
+
+body #kundenprobleme .matthias .text .losung p {
+  position: relative;
+  top: 3vh;
+}
+
+body #kundenprobleme hr {
+  position: relative;
+  top: 75vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 2px solid #071c47;
+}
+
+body #kundenprobleme .ingolf {
+  position: absolute;
+  top: 90vh;
+  vertical-align: middle;
+}
+
+body #kundenprobleme .ingolf .img {
+  width: 20%;
+  text-align: center;
+  position: absolute;
+  right: 5%;
+}
+
+body #kundenprobleme .ingolf .img img {
+  width: 70%;
+}
+
+body #kundenprobleme .ingolf .img h3 {
+  position: relative;
+  top: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+body #kundenprobleme .ingolf .img p {
+  position: relative;
+  top: 10px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+body #kundenprobleme .ingolf .text {
+  float: left;
+  width: 60%;
+  position: relative;
+  left: 5%;
+  line-height: 25px;
+}
+
+body #kundenprobleme .ingolf .text .problem {
+  position: absolute;
+  top: 3vh;
+}
+
+body #kundenprobleme .ingolf .text .problem p {
+  position: relative;
+  top: 3vh;
+}
+
+body #kundenprobleme .ingolf .text .losung {
+  position: relative;
+  top: 22vh;
+}
+
+body #kundenprobleme .ingolf .text .losung p {
+  position: relative;
+  top: 3vh;
+}
+/*# sourceMappingURL=main.css.map */
