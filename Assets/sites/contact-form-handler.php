@@ -19,6 +19,7 @@
 
     mail($to, $email_subject, $email_body, $headers);
 
-    header("Location: Index.html");
+    header("Location: ../../index.html");
+    die()
     
 ?>
