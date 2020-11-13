@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,0,-6.384)">
+        <g transform="matrix(1,0,0,1,0.964649,0)">
+            <path d="M453.379,126.448L453.379,336.436L401.311,336.436L401.311,283.996L348.872,336.436L282.605,336.436L453.379,126.448ZM427.986,124.074L263.395,326.458L200.85,263.913L200.85,336.436L144.692,336.436L144.692,124.074L265.191,244.573L358.169,124.074L427.986,124.074Z" style="fill:rgb(39,39,39);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,2.80814,0)">
+            <g transform="matrix(1,0,0,1,1.98684,0)">
+                <g transform="matrix(1,0,0,1,-6.16559,-0.238024)">
+                    <text x="0px" y="436.222px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:81.25px;">Marcus</text>
+                </g>
+                <g transform="matrix(1,0,0,1,284.826,-0.238024)">
+                    <text x="0px" y="436.222px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:81.25px;">Neubert</text>
+                </g>
+            </g>
+            <g transform="matrix(1.38431,0,0,1.38431,-1.73774,-184.037)">
+                <text x="-0.413px" y="482.5px" style="font-family:'Montserrat-SemiBold', 'Montserrat';font-weight:600;font-size:31.454px;">C<tspan x="25.027px 48.46px 73.151px 92.495px 117.061px 130.04px 146.521px 158.757px 183.591px 208.565px 220.392px 245.744px 257.57px 283.01px 306.243px 328.624px 349.901px 374.592px 386.828px 411.662px " y="482.5px 482.5px 482.5px 482.5px 482.5px 482.5px 482.5px 482.5px 482.5px 482.5px 482.5px 482.5px 482.5px 482.5px 482.5px 482.5px 482.5px 482.5px 482.5px 482.5px ">onsulting &amp; Coaching</tspan></text>
+            </g>
+        </g>
+    </g>
+</svg>
