@@ -94,6 +94,7 @@
   left: 0;
   min-width: 100%;
   padding-left: 25px;
+  margin-top: 30px;
 }
 
 #h2-right {
@@ -105,11 +106,209 @@
   position: relative;
   float: right;
   width: 50%;
+  top: 15vh;
 }
 
 .left {
   position: absolute;
   float: left;
   width: 50%;
+  top: 15vh;
+  left: 0;
+}
+
+#auswahl iframe {
+}
+
+.auswahl {
+}
+
+.wrapper div h2 {
+  font-weight: 700;
+}
+
+.wrapper div p {
+  left: 0;
+}
+
+.versprechen-div {
+  position: absolute;
+  right: 0;
+  width: 60%;
+}
+
+#versprechen .versprechen-div .h2, h2 {
+}
+
+#versprechen .versprechen-div p {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.long {
+  position: relative;
+  left: 0;
+  text-align: left;
+  max-width: 100%;
+}
+
+.termin {
+  width: 200px;
+  position: absolute;
+}
+
+.termin {
+  width: 800px;
+  height: 540px;
+}
+
+.termin {
+  right: 25px;
+  top: -20vh;
+}
+
+.termin {
+  top: -20vh;
+}
+
+@media (min-width: 768px) {
+  .container.content {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .text-left {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 992px) {
+  .text-left {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ueberheading {
+    text-align: center;
+    margin-top: 140px;
+    font-weight: 700;
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ueberheading {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ueberp {
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ueberp {
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ueberimg {
+    position: relative;
+    width: 30%;
+    margin-right: 25px;
+    float: right;
+    top: -300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ueberimg {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ueberimg {
+    width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .social {
+    width: 40%;
+    margin-left: 25px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .social {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ablauf-heading {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ablauf-heading {
+    text-align: center;
+    margin-top: 140px;
+    font-weight: 700;
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 768px) {
+  .angebot-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .angebot-img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 767px) {
+  .termin-holder {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container.termin-holder {
+    padding-top: 130px;
+  }
 }
 
